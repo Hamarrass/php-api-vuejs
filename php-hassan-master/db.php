@@ -17,6 +17,6 @@ header('Access-Control-Allow-Credentials: true');
 	// 	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	// 	title VARCHAR(30)  NULL,
 	// 	description text   NULL,
-	// 	etat char(70) NOT NULL,
+	// 	etat char(70)  NULL,
 	// 	)";
 ?>
