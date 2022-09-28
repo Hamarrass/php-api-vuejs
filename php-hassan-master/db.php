@@ -12,11 +12,11 @@ header('Access-Control-Allow-Credentials: true');
 	$pdo_conn = new PDO( 'mysql:host=localhost;dbname=crud_vuejs', $databaseUsername, $databasePassword );
 
 
-
+        //table todo 
 	// $sql = "CREATE TABLE todo(
 	// 	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 	// 	title VARCHAR(30)  NULL,
 	// 	description text   NULL,
-	// 	etat char(70)  NULL,
+	// 	etat char(30)  NULL,
 	// 	)";
 ?>
