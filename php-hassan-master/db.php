@@ -10,4 +10,13 @@ header('Access-Control-Allow-Credentials: true');
 	$databaseUsername = 'root';
 	$databasePassword = '';
 	$pdo_conn = new PDO( 'mysql:host=localhost;dbname=crud_vuejs', $databaseUsername, $databasePassword );
+
+
+
+	// $sql = "CREATE TABLE todo(
+	// 	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+	// 	title VARCHAR(30)  NULL,
+	// 	description text   NULL,
+	// 	etat char(70) NOT NULL,
+	// 	)";
 ?>
